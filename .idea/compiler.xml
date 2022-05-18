@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="businessapi" />
+        <module name="systemapi" />
+        <module name="businessservice" />
+        <module name="cloudcommon" />
+        <module name="systemservice" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="businessapi" options="-parameters" />
+      <module name="businessservice" options="-parameters" />
+      <module name="cloudcommon" options="-parameters" />
+      <module name="systemapi" options="-parameters" />
+      <module name="systemservice" options="-parameters" />
+    </option>
+  </component>
+</project>
