@@ -12,4 +12,11 @@
     <artifactId>business-api</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.xnfh</groupId>
+            <artifactId>system-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

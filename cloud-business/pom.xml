@@ -16,5 +16,13 @@
         <module>business-service</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.xnfh</groupId>
+            <artifactId>cloud-system</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

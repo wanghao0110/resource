@@ -6,19 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="businessapi" />
-        <module name="systemapi" />
         <module name="businessservice" />
-        <module name="cloudcommon" />
         <module name="systemservice" />
+        <module name="systemapi" />
+        <module name="businessapi" />
+        <module name="cloudcommon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clouddoc" target="1.8" />
+      <module name="cloudswagger" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="businessapi" options="-parameters" />
       <module name="businessservice" options="-parameters" />
       <module name="cloudcommon" options="-parameters" />
+      <module name="clouddoc" options="-parameters" />
+      <module name="cloudswagger" options="-parameters" />
       <module name="systemapi" options="-parameters" />
       <module name="systemservice" options="-parameters" />
     </option>

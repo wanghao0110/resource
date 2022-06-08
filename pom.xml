@@ -12,6 +12,8 @@
         <module>cloud-system</module>
         <module>cloud-business</module>
         <module>cloud-common</module>
+        <module>cloud-doc</module>
+        <module>cloud-swagger</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
